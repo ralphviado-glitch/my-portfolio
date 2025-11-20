@@ -16,10 +16,10 @@
 
     const submitForm = async () => {
 
-/*        if(!recaptchaToken.value) {
+        if(!recaptchaToken.value) {
             notyf.error("Please verify that you are not a robot.");
             return;
-        }*/
+        }
 
         isLoading.value = true;
 
@@ -54,14 +54,14 @@
             isLoading.value = false;
             notyf.error("Failed to send message");
 
-        } /*finally {
+        } finally {
 
             resetRecaptcha();
 
-        }*/
+        }
     }
 
-/*    const SITE_KEY = '6Lcr0BEsAAAAAOpQBDt6qXv9xlhjNt4qsaDdIXS3';
+    const SITE_KEY = '6Ldm0xIsAAAAAMb5dze_tkzvUoSPbIJirYAhRl57';
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
@@ -109,7 +109,7 @@
         onBeforeUnmount(() => {
             clearInterval(interval);
         })
-    })*/
+    })
 </script>
 
 <template>
@@ -136,6 +136,11 @@
 						<button type="submit" class="btn btn-secondary" :disabled="isLoading">
                         {{isLoading ? "Sending..." : "Submit"}}
                     </button>
+
+                        <!-- Recaptcha checkbox -->
+                    <div class="d-flex justify-content-end mt-2">
+                        <div ref="recaptchaContainer"></div>
+                    </div>
 					</div>
 				</form>
 			</div>	
