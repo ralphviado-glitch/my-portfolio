@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbarNav a:hover {
+  text-decoration: underline;
+}
+
+#text-about {
+  color: #4F4F4F;
+}
+
+#base {
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #FFB400;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+  color: #000000;
+
+}
+
+#projects {
+  background: #ECECEC;
+}
+
+.card img {
+  height: 200px !important;
+}
+
+#contact {
+  background: #ECECEC;
+}
+
+#submit {
+
+  padding: 8px 24px;
+  border-radius: 8px;
+  background: #FFB400 !important;
+   
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+p {
+  color: #585858 ;
+}
+
