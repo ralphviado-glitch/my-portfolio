@@ -7,7 +7,7 @@
 				<img src="/images/logo-html5.png" class="img-fluid"/>
 				<img src="/images/logo-css3.png" class="img-fluid"/>
 				<img src="/images/logo-bootstrap.png" class="img-fluid"/>
-				<img src="./images/logo-javascript.png" class="img-fluid"/>
+				<img src="/images/logo-javascript.png" class="img-fluid"/>
 				
 			</div>
 			<div class="col-lg-4 col-sm-6 p-lg-5">
