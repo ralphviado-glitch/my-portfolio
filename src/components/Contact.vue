@@ -16,10 +16,10 @@
 
     const submitForm = async () => {
 
-        if(!recaptchaToken.value) {
-            notyf.error("Please verify that you are not a robot.");
-            return;
-        }
+        // if(!recaptchaToken.value) {
+        //     notyf.error("Please verify that you are not a robot.");
+        //     return;
+        // }
 
         isLoading.value = true;
 
@@ -61,7 +61,7 @@
         }
     }
 
-    const SITE_KEY = '6Ldm0xIsAAAAAMb5dze_tkzvUoSPbIJirYAhRl57';
+    /*const SITE_KEY = '6Ldm0xIsAAAAAMb5dze_tkzvUoSPbIJirYAhRl57';
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
@@ -109,41 +109,48 @@
         onBeforeUnmount(() => {
             clearInterval(interval);
         })
-    })
+    })*/
 </script>
 
 <template>
 	<!-- contact -->
-	<div class="container-fluid" id="contact">
-		<div class="row d-grid gap-2 d-flex justify-content-md-center">	
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="justify-content-center">
+                    <div class="card-group">
+                        <div class="card shadow-top-left-right-only">
+                            <div class="card-body px-4">
+                                <h1 id="contact-title" class="pb-3 text-center">Contact Me</h1>
+                                    <form @submit.prevent="submitForm">
+                                        <div class="form-group">
+                                            <label class="mb-2" for="name">Name</label>
+                                            <input type="text" v-model="name" class="form-control contact-form-control" placeholder="First Name M.I. Last Name">                        
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="mt-3 mb-2" for="email">Email Address</label>
+                                            <input type="email" v-model="email" class="form-control contact-form-control" placeholder="Email">  
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="mt-3 mb-2" for="message">Message</label>
+                                            <textarea v-model="message" class="form-control contact-form-control" rows="6" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="mt-4 d-grid gap-2 d-md-flex mb-5">
+                                        <button type="submit" class="btn btn-outline-dark btn-lg mt-3 border-4 rounded-pill px-5" :disabled="isLoading">
+                                            {{isLoading ? "Sending..." : "Submit"}}
+                                        </button>
 
-			<div class="col-md-12 col-lg-6 pt-5">
-				<h2 id="contact-title" class="px-3 pb-3 text-center">Contact Me</h2>
-				<form @submit.prevent="submitForm">
-					<div class="form-group">
-						<label class="mb-2" for="name">Name</label>
-						<input type="text" v-model="name" class="form-control contact-form-control" placeholder="First Name M.I. Last Name">						
-					</div>
-					<div class="form-group">
-						<label class="mt-3 mb-2" for="email">Email Address</label>
-						<input type="email" v-model="email" class="form-control contact-form-control" placeholder="Email">	
-					</div>
-					<div class="form-group">
-						<label class="mt-3 mb-2" for="message">Message</label>
-						<textarea v-model="message" class="form-control contact-form-control" rows="6" placeholder="Message"></textarea>
-					</div>
-					<div class="mt-4 d-grid gap-2 d-md-flex mb-5">
-						<button type="submit" class="btn btn-secondary" :disabled="isLoading">
-                        {{isLoading ? "Sending..." : "Submit"}}
-                    </button>
-
-                        <!-- Recaptcha checkbox -->
-                    <div class="d-flex justify-content-end mt-2">
-                        <div ref="recaptchaContainer"></div>
+                                            <!-- Recaptcha checkbox -->
+                                        <!-- <div class="d-flex justify-content-end mt-2">
+                                            <div ref="recaptchaContainer"></div>
+                                        </div> -->
+                                        </div>
+                                    </form>
+                            </div>
+                        </div>
                     </div>
-					</div>
-				</form>
-			</div>	
-		</div>		
-	</div>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>

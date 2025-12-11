@@ -20,7 +20,7 @@
 <template>
      <!-- My Projects -->
     <section class="pb-5" id="projects">
-            <h1 class="mt-5 mb-5 pb-4 text-center">My Projects</h1>
+            <h1 class="mt-5 mb-5 pb-4 text-center">My Recent Projects</h1>
 
             <div
                 v-for="(group, index) in chunkedProjects" 

@@ -24,17 +24,92 @@
 
 }
 
-#projects {
-  background: #ECECEC;
+h1 {
+  font-size: 3.5rem;
 }
+
+h2 {
+
+  font-size: 38px;
+  color: #FFFFFF;
+}
+
+h4 {
+
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.has-text-primary {
+  color: #456990 !important;
+}
+
+#about-me {
+  background: #1D2D44;
+  padding-bottom: 5rem;
+}
+
+#footer {
+  background: #1D2D44;
+  padding-top: 5rem;
+}
+
+#contact {
+  padding-top: 5rem;
+  margin-bottom: -200px;
+}
+
+ul {
+  list-style: none;
+}
+
+#skills {
+  margin-top: -120px;
+  margin-bottom: 5rem;
+}
+
+
 
 .card img {
   height: 200px !important;
 }
 
-#contact {
-  background: #ECECEC;
+.project-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
 }
+
+.project-img {
+  width: 100%;
+  height: auto;
+  transition: 0.4s ease-in-out;
+  display: block;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(25, 25, 25, 0.85);
+  opacity: 0;
+  padding: 20px;
+  transition: 0.4s ease-in-out;
+}
+
+/* Hover Effects */
+.project-wrapper:hover .project-img {
+  transform: scale(1.1);
+  filter: blur(2px) brightness(0.7);
+}
+
+.project-wrapper:hover .project-overlay {
+  opacity: 1;
+}
+
 
 #submit {
 
@@ -49,6 +124,22 @@
 }
 
 p {
-  color: #585858 ;
+  font-size: 18px;
+  color: #FFFFFF ;
 }
+
+.shadow-top-left-right-only {
+  box-shadow: 
+        0 -0.5rem 1rem rgba(0, 0, 0, 0.15), /* Top shadow: negative vertical offset */
+        -0.5rem 0 1rem rgba(0, 0, 0, 0.15),  /* Left shadow: negative horizontal offset */
+        0.5rem 0 1rem rgba(0, 0, 0, 0.15); 
+}
+
+.section-title {
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 6px;
+}
+
+
+
 
