@@ -8,39 +8,39 @@
        <!-- Card 1 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="project-wrapper">
-            <img src="/images/Card1.png" class="project-img" />
+            <img src="/images/CB-logo.png" class="project-img" />
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center text-center px-3">
-              <h5 class="text-white mb-2">E-commerce App</h5>
+              <h5 class="text-white mb-2">Craft & Bauer Real Estate Co</h5>
               <p>
-                MERN e-commerce platform with real-time search, checkout, and admin dashboard.
+                A real estate platform with real-time property search, seamless inquiry and checkout flows, and an intuitive admin dashboard for managing listings and users.
               </p>
-              <a href="#" class="btn btn-outline-light btn-lg border-3 rounded-pill px-4 mt-3">View Project</a>
+              <a href="https://craftbauer.com/" target="_blank" class="btn btn-outline-light btn-lg border-3 rounded-pill px-4 mt-3">View Project</a>
             </div>
           </div>
         </div>
         <!-- Card 2 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="project-wrapper">
-            <img src="/images/Card1.png" class="project-img" />
+            <img src="/images/Viaje-logo.png" class="project-img" />
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center text-center px-3">
-              <h5 class="text-white mb-2">E-commerce App</h5>
+              <h5 class="text-white mb-2">Viaje Airlines</h5>
               <p>
-                MERN e-commerce platform with real-time search, checkout, and admin dashboard.
+                Side Project: Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confimation, focusing on user experience and workflow efficiency
               </p>
-              <a href="#" class="btn btn-outline-light btn-lg border-3 rounded-pill px-4 mt-3">View Project</a>
+              <a href="https://viaje-client.vercel.app/" target="_blank" class="btn btn-outline-light btn-lg border-3 rounded-pill px-4 mt-3">View Project</a>
             </div>
           </div>
         </div>
         <!-- Card 3 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="project-wrapper">
-            <img src="/images/Card1.png" class="project-img" />
+            <img src="/images/Caelas-logo.png" class="project-img" />
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center text-center px-3">
-              <h5 class="text-white mb-2">E-commerce App</h5>
+              <h5 class="text-white mb-2">Caela's Treats</h5>
               <p>
                 MERN e-commerce platform with real-time search, checkout, and admin dashboard.
               </p>
-              <a href="#" class="btn btn-outline-light btn-lg border-3 rounded-pill px-4 mt-3">View Project</a>
+              <a href="https://caelas-treats.vercel.app/" target="_blank" class="btn btn-outline-light btn-lg border-3 rounded-pill px-4 mt-3">View Project</a>
             </div>
           </div>
         </div>
