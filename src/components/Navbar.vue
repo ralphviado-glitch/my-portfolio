@@ -22,7 +22,7 @@ const route = useRoute();
             </router-link>
           </li>
           <li class="nav-item px-3" v-if="route.name !== 'MyCV'">
-            <a class="nav-link text-dark" href="#projects">My Recent Projects</a>
+            <a class="nav-link text-dark" href="#projects">Web Application Projects</a>
           </li>
 
           <li class="nav-item px-3" v-if="route.name !== 'MyCV'">

@@ -100,7 +100,17 @@ ul {
   transition: 0.4s ease-in-out;
 }
 
-/* Hover Effects */
+  .project-overlay p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .project-overlay .btn {
+    font-size: 14px;
+    padding: 6px 16px;
+    margin-top: 10px;
+  }
+
 .project-wrapper:hover .project-img {
   transform: scale(1.1);
   filter: blur(2px) brightness(0.7);
@@ -130,8 +140,8 @@ p {
 
 .shadow-top-left-right-only {
   box-shadow: 
-        0 -0.5rem 1rem rgba(0, 0, 0, 0.15), /* Top shadow: negative vertical offset */
-        -0.5rem 0 1rem rgba(0, 0, 0, 0.15),  /* Left shadow: negative horizontal offset */
+        0 -0.5rem 1rem rgba(0, 0, 0, 0.15), 
+        -0.5rem 0 1rem rgba(0, 0, 0, 0.15), 
         0.5rem 0 1rem rgba(0, 0, 0, 0.15); 
 }
 
@@ -141,5 +151,34 @@ p {
 }
 
 
+
+@media (max-width: 768px) {
+
+  .project-overlay {
+    opacity: 0.9; 
+    padding: 12px;
+    overflow-y: auto; 
+  }
+
+  .project-wrapper:hover .project-overlay {
+    opacity: 0.9; 
+  }
+
+  .project-overlay h5 {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .project-overlay p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .project-overlay .btn {
+    font-size: 14px;
+    padding: 6px 16px;
+    margin-top: 10px;
+  }
+}
 
 
