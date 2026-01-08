@@ -18,7 +18,7 @@
             <ul class="mt-2">
               <li>Built and maintained responsive web applications for property search and user workflows.
               </li>
-              <li>Developed admin dashboards to manage listings, inquiries, and transactions.</li>
+              <li>Developed internal dashboards and admin tools to support operational and sales teams.</li>
               <li>Implemented UI improvements for cleaner, intuitive user interfaces.</li>
               <li>Collaborated with internal teams to translate business requirements into product features.</li>
               <li>Optimized web performance and cross-device usability.</li>
@@ -26,14 +26,14 @@
             </ul>
           </div>
           <div class="mt-4">
-            <h5 class="fw-bold">Web Developer / Operations Lead</h5>
+            <h5 class="fw-bold">Web Developer</h5>
             <p class="text-dark mb-1">Adcrate Solutions Co. — 2015–2023</p>
             <ul class="mt-2">
-              <li>Led design + web development projects for clients.</li>
-              <li>Managed daily operations, performance, and team leadership.</li>
-              <li>Implemented growth strategies and operational improvements.</li>
-              <li>Improved workflows, boosting overall efficiency.</li>
-              <li>Designed UI components and marketing visuals to support product experiences.</li>
+              <li>Developed and maintained web applications supporting e-commerce, advertising, and internal operations.</li>
+              <li>Built frontend features and internal tools used daily by operations and client teams.</li>
+              <li>Worked across the full development lifecycle: requirements, implementation, testing, and deployment.</li>
+              <li>Improved UI performance and reliability for data-heavy dashboards.</li>
+              <li>Contributed to technical decision-making and code quality improvements.</li>
             </ul>
           </div>
           <div class="mt-4">
@@ -42,7 +42,7 @@
             <ul class="mt-2">
               <li>Certified DoubleClick Rich Media creatives (VAST, VPAID, Mobile Web/App).</li>
               <li>Troubleshot live rich media ad issues.</li>
-              <li>Coordinated with publishers and agencies to resolve technical concerns.</li>
+              <li>Collaborated with engineers to diagnose bugs and performance issues.</li>
             </ul>
           </div>
           <div class="mt-4">
@@ -50,7 +50,7 @@
             <p class="text-dark mb-1">Wide-Out Workforces Inc. — 2011–2014</p>
             <ul class="mt-2">
               <li>Monitored and resolved live ad delivery issues.</li>
-              <li>Worked with campaign managers and vendor teams.</li>
+              <li>Investigated system issues and coordinated fixes with technical teams.</li>
               <li>Ensured creatives served correctly across devices and platforms.</li>
             </ul>
           </div>
@@ -80,7 +80,7 @@
           <h3 class="fw-bold section-title">Professional Summary</h3>
 
           <ul class="mt-3">
-            <li>Web Developer – SaaS & Product Applications with 10+ years of experience building scalable web platforms and data-driven applications.</li>
+            <li>Web Developer with 10+ years of experience building scalable web platforms and data-driven applications.</li>
             <li>Proficient in React, Vue, Next.js, JavaScript, HTML, CSS, and responsive UI development.</li>
             <li>Experienced in integrating APIs, e-commerce/payment systems (Shopify, Stripe), and admin dashboards for operational workflows.</li>
             <li>Strong eye for UI/UX design, ensuring clean, intuitive interfaces that enhance user experience.</li>
