@@ -150,6 +150,41 @@ p {
   padding-bottom: 6px;
 }
 
+.project-details {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.project-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.project-list li {
+  margin-bottom: 0.4rem;
+}
+
+/* Smooth expand / collapse animation */
+.collapse-enter-active,
+.collapse-leave-active {
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+}
+
+.collapse-enter-from,
+.collapse-leave-to {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.collapse-enter-to,
+.collapse-leave-from {
+  max-height: 500px; /* large enough for content */
+  opacity: 1;
+}
+
 
 
 @media (max-width: 768px) {
